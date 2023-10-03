@@ -6,13 +6,17 @@
   height: 100vh;
 }
 
-.heading {
+.count {
   font-family: 'Roboto';
   font-size: 40px;
   color: #32404d;
 }
 
-.count {
+.counter {
+  color: #c20a72;
+}
+
+.desc {
   font-size: 22px;
   font-family: 'Roboto';
   color: #2e3e4e;
