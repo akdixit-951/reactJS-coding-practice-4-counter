@@ -15,11 +15,14 @@ class ClickCounter extends Component {
     const {count} = this.state
     return (
       <div className="container">
-        <h1 className="heading">{`The Button has been clicked ${count} times`}</h1>
-        <p className="count">Click the button to increase the count</p>
+        <h1 className="count">
+          The Button has been clicked <span className="counter">{count}</span>{' '}
+          times
+        </h1>
+        <p className="desc">Click the button to increase the count</p>
         <div>
           <button type="button" className="button" onClick={this.onIncrement}>
-            Click Me
+            Click Me!
           </button>
         </div>
       </div>
